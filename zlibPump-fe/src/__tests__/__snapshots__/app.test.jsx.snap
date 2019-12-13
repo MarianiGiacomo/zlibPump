@@ -5,36 +5,36 @@ exports[`Test snapshot 1`] = `
   class="AppGrid-root-1"
 >
   <div
-    class="MuiGrid-container-8 MuiGrid-spacing-xs-24-32"
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-10"
   >
     <div
-      class="MuiGrid-item-9 MuiGrid-grid-xs-12-48"
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
     >
       <h6
-        class="MuiTypography-root-105 MuiTypography-h6-122 MuiTypography-gutterBottom-132 MuiTypography-alignCenter-128"
+        class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom MuiTypography-alignCenter"
       >
         ZlibPump
       </h6>
       <h6
-        class="MuiTypography-root-105 MuiTypography-subtitle1-123 MuiTypography-gutterBottom-132 MuiTypography-alignCenter-128"
+        class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom MuiTypography-alignCenter"
       >
         Inflate and deflate strings with zlib
       </h6>
     </div>
     <div
-      class="MuiGrid-item-9 MuiGrid-grid-xs-12-48 MuiGrid-grid-sm-6-56"
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
     >
       <div
         class="InflateBox-root-141"
       >
         <div
-          class="MuiGrid-container-8 MuiGrid-spacing-xs-16-31"
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-8"
         >
           <div
-            class="MuiGrid-item-9 MuiGrid-grid-xs-12-48"
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
           >
             <div
-              class="MuiPaper-root-148 MuiPaper-elevation2-152 MuiPaper-rounded-149 InflateBox-paper-142"
+              class="MuiPaper-root MuiPaper-elevation1 InflateBox-paper-142 MuiPaper-rounded"
             >
               <div
                 data-testid="form-div"
@@ -43,25 +43,40 @@ exports[`Test snapshot 1`] = `
                   class="Form-form-177"
                 >
                   <div
-                    class="MuiFormControl-root-182 MuiFormControl-fullWidth-185"
+                    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
                   >
                     <label
-                      class="MuiFormLabel-root-197 MuiInputLabel-root-186 MuiInputLabel-formControl-191 MuiInputLabel-animated-194 MuiInputLabel-outlined-196"
+                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
                       data-shrink="false"
                       for="deflatedHex"
+                      id="deflatedHex-label"
                     >
                       Deflated Hex
                     </label>
                     <div
-                      class="MuiInputBase-root-217 MuiOutlinedInput-root-204 MuiInputBase-fullWidth-226 MuiInputBase-formControl-218 MuiInputBase-multiline-225 MuiOutlinedInput-multiline-210"
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
                     >
+                      <textarea
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        id="deflatedHex"
+                        rows="1"
+                        style="height: 0px; overflow: hidden;"
+                      />
+                      <textarea
+                        aria-hidden="true"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        readonly=""
+                        style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); width: 100%;"
+                        tabindex="-1"
+                      />
                       <fieldset
                         aria-hidden="true"
-                        class="MuiPrivateNotchedOutline-root-234 MuiOutlinedInput-notchedOutline-211"
+                        class="PrivateNotchedOutline-root-242 MuiOutlinedInput-notchedOutline"
                         style="padding-left: 8px;"
                       >
                         <legend
-                          class="MuiPrivateNotchedOutline-legend-235"
+                          class="PrivateNotchedOutline-legend-243"
                           style="width: 0.01px;"
                         >
                           <span>
@@ -69,31 +84,6 @@ exports[`Test snapshot 1`] = `
                           </span>
                         </legend>
                       </fieldset>
-                      <div
-                        class="MuiPrivateTextarea-root-236"
-                      >
-                        <textarea
-                          aria-hidden="true"
-                          class="MuiPrivateTextarea-textarea-237 MuiPrivateTextarea-shadow-238"
-                          readonly=""
-                          rows="1"
-                          tabindex="-1"
-                        />
-                        <textarea
-                          aria-hidden="true"
-                          class="MuiPrivateTextarea-textarea-237 MuiPrivateTextarea-shadow-238"
-                          readonly=""
-                          rows="1"
-                          tabindex="-1"
-                        />
-                        <textarea
-                          aria-invalid="false"
-                          class="MuiPrivateTextarea-textarea-237 MuiInputBase-input-227 MuiOutlinedInput-input-212 MuiInputBase-inputMultiline-229 MuiOutlinedInput-inputMultiline-214"
-                          id="deflatedHex"
-                          rows="1"
-                          style="height: 19px;"
-                        />
-                      </div>
                     </div>
                     
                   </div>
@@ -101,18 +91,18 @@ exports[`Test snapshot 1`] = `
                     class="Form-centering-178"
                   >
                     <button
-                      class="MuiButtonBase-root-265 MuiButton-root-239 MuiButton-contained-250 MuiButton-raised-253 Form-button-179"
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained Form-button-179"
                       data-testid="button-deflatedHex"
                       tabindex="0"
                       type="submit"
                     >
                       <span
-                        class="MuiButton-label-240"
+                        class="MuiButton-label"
                       >
                         Inflate
                       </span>
                       <span
-                        class="MuiTouchRipple-root-277"
+                        class="MuiTouchRipple-root"
                       />
                     </button>
                   </div>
@@ -121,10 +111,10 @@ exports[`Test snapshot 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-item-9 MuiGrid-grid-xs-12-48"
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
           >
             <div
-              class="MuiPaper-root-148 MuiPaper-elevation2-152 MuiPaper-rounded-149 InflateBox-paper-142"
+              class="MuiPaper-root MuiPaper-elevation1 InflateBox-paper-142 MuiPaper-rounded"
             >
               <div
                 data-testid="form-div"
@@ -133,25 +123,40 @@ exports[`Test snapshot 1`] = `
                   class="Form-form-177"
                 >
                   <div
-                    class="MuiFormControl-root-182 MuiFormControl-fullWidth-185"
+                    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
                   >
                     <label
-                      class="MuiFormLabel-root-197 MuiInputLabel-root-186 MuiInputLabel-formControl-191 MuiInputLabel-animated-194 MuiInputLabel-outlined-196"
+                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
                       data-shrink="false"
                       for="deflatedBase64"
+                      id="deflatedBase64-label"
                     >
                       Deflated base64
                     </label>
                     <div
-                      class="MuiInputBase-root-217 MuiOutlinedInput-root-204 MuiInputBase-fullWidth-226 MuiInputBase-formControl-218 MuiInputBase-multiline-225 MuiOutlinedInput-multiline-210"
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
                     >
+                      <textarea
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        id="deflatedBase64"
+                        rows="1"
+                        style="height: 0px; overflow: hidden;"
+                      />
+                      <textarea
+                        aria-hidden="true"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        readonly=""
+                        style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); width: 100%;"
+                        tabindex="-1"
+                      />
                       <fieldset
                         aria-hidden="true"
-                        class="MuiPrivateNotchedOutline-root-234 MuiOutlinedInput-notchedOutline-211"
+                        class="PrivateNotchedOutline-root-242 MuiOutlinedInput-notchedOutline"
                         style="padding-left: 8px;"
                       >
                         <legend
-                          class="MuiPrivateNotchedOutline-legend-235"
+                          class="PrivateNotchedOutline-legend-243"
                           style="width: 0.01px;"
                         >
                           <span>
@@ -159,31 +164,6 @@ exports[`Test snapshot 1`] = `
                           </span>
                         </legend>
                       </fieldset>
-                      <div
-                        class="MuiPrivateTextarea-root-236"
-                      >
-                        <textarea
-                          aria-hidden="true"
-                          class="MuiPrivateTextarea-textarea-237 MuiPrivateTextarea-shadow-238"
-                          readonly=""
-                          rows="1"
-                          tabindex="-1"
-                        />
-                        <textarea
-                          aria-hidden="true"
-                          class="MuiPrivateTextarea-textarea-237 MuiPrivateTextarea-shadow-238"
-                          readonly=""
-                          rows="1"
-                          tabindex="-1"
-                        />
-                        <textarea
-                          aria-invalid="false"
-                          class="MuiPrivateTextarea-textarea-237 MuiInputBase-input-227 MuiOutlinedInput-input-212 MuiInputBase-inputMultiline-229 MuiOutlinedInput-inputMultiline-214"
-                          id="deflatedBase64"
-                          rows="1"
-                          style="height: 19px;"
-                        />
-                      </div>
                     </div>
                     
                   </div>
@@ -191,18 +171,18 @@ exports[`Test snapshot 1`] = `
                     class="Form-centering-178"
                   >
                     <button
-                      class="MuiButtonBase-root-265 MuiButton-root-239 MuiButton-contained-250 MuiButton-raised-253 Form-button-179"
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained Form-button-179"
                       data-testid="button-deflatedBase64"
                       tabindex="0"
                       type="submit"
                     >
                       <span
-                        class="MuiButton-label-240"
+                        class="MuiButton-label"
                       >
                         Inflate
                       </span>
                       <span
-                        class="MuiTouchRipple-root-277"
+                        class="MuiTouchRipple-root"
                       />
                     </button>
                   </div>
@@ -214,19 +194,19 @@ exports[`Test snapshot 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-item-9 MuiGrid-grid-xs-12-48 MuiGrid-grid-sm-6-56"
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
     >
       <div
-        class="DeflateBox-root-268"
+        class="DeflateBox-root-275"
       >
         <div
-          class="MuiGrid-container-8 MuiGrid-spacing-xs-16-31"
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-8"
         >
           <div
-            class="MuiGrid-item-9 MuiGrid-grid-xs-12-48"
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
           >
             <div
-              class="MuiPaper-root-148 MuiPaper-elevation2-152 MuiPaper-rounded-149 DeflateBox-paper-269"
+              class="MuiPaper-root MuiPaper-elevation1 DeflateBox-paper-276 MuiPaper-rounded"
             >
               <div
                 data-testid="form-div"
@@ -235,25 +215,40 @@ exports[`Test snapshot 1`] = `
                   class="Form-form-177"
                 >
                   <div
-                    class="MuiFormControl-root-182 MuiFormControl-fullWidth-185"
+                    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
                   >
                     <label
-                      class="MuiFormLabel-root-197 MuiInputLabel-root-186 MuiInputLabel-formControl-191 MuiInputLabel-animated-194 MuiInputLabel-outlined-196"
+                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
                       data-shrink="false"
                       for="inflatedAscii"
+                      id="inflatedAscii-label"
                     >
                       Inflated ASCII
                     </label>
                     <div
-                      class="MuiInputBase-root-217 MuiOutlinedInput-root-204 MuiInputBase-fullWidth-226 MuiInputBase-formControl-218 MuiInputBase-multiline-225 MuiOutlinedInput-multiline-210"
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
                     >
+                      <textarea
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        id="inflatedAscii"
+                        rows="1"
+                        style="height: 0px; overflow: hidden;"
+                      />
+                      <textarea
+                        aria-hidden="true"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        readonly=""
+                        style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); width: 100%;"
+                        tabindex="-1"
+                      />
                       <fieldset
                         aria-hidden="true"
-                        class="MuiPrivateNotchedOutline-root-234 MuiOutlinedInput-notchedOutline-211"
+                        class="PrivateNotchedOutline-root-242 MuiOutlinedInput-notchedOutline"
                         style="padding-left: 8px;"
                       >
                         <legend
-                          class="MuiPrivateNotchedOutline-legend-235"
+                          class="PrivateNotchedOutline-legend-243"
                           style="width: 0.01px;"
                         >
                           <span>
@@ -261,31 +256,6 @@ exports[`Test snapshot 1`] = `
                           </span>
                         </legend>
                       </fieldset>
-                      <div
-                        class="MuiPrivateTextarea-root-236"
-                      >
-                        <textarea
-                          aria-hidden="true"
-                          class="MuiPrivateTextarea-textarea-237 MuiPrivateTextarea-shadow-238"
-                          readonly=""
-                          rows="1"
-                          tabindex="-1"
-                        />
-                        <textarea
-                          aria-hidden="true"
-                          class="MuiPrivateTextarea-textarea-237 MuiPrivateTextarea-shadow-238"
-                          readonly=""
-                          rows="1"
-                          tabindex="-1"
-                        />
-                        <textarea
-                          aria-invalid="false"
-                          class="MuiPrivateTextarea-textarea-237 MuiInputBase-input-227 MuiOutlinedInput-input-212 MuiInputBase-inputMultiline-229 MuiOutlinedInput-inputMultiline-214"
-                          id="inflatedAscii"
-                          rows="1"
-                          style="height: 19px;"
-                        />
-                      </div>
                     </div>
                     
                   </div>
@@ -293,18 +263,18 @@ exports[`Test snapshot 1`] = `
                     class="Form-centering-178"
                   >
                     <button
-                      class="MuiButtonBase-root-265 MuiButton-root-239 MuiButton-contained-250 MuiButton-raised-253 Form-button-179"
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained Form-button-179"
                       data-testid="button-inflatedAscii"
                       tabindex="0"
                       type="submit"
                     >
                       <span
-                        class="MuiButton-label-240"
+                        class="MuiButton-label"
                       >
                         Deflate
                       </span>
                       <span
-                        class="MuiTouchRipple-root-277"
+                        class="MuiTouchRipple-root"
                       />
                     </button>
                   </div>
@@ -313,10 +283,10 @@ exports[`Test snapshot 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-item-9 MuiGrid-grid-xs-12-48"
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
           >
             <div
-              class="MuiPaper-root-148 MuiPaper-elevation2-152 MuiPaper-rounded-149 DeflateBox-paper-269"
+              class="MuiPaper-root MuiPaper-elevation1 DeflateBox-paper-276 MuiPaper-rounded"
             >
               <div
                 data-testid="form-div"
@@ -325,25 +295,40 @@ exports[`Test snapshot 1`] = `
                   class="Form-form-177"
                 >
                   <div
-                    class="MuiFormControl-root-182 MuiFormControl-fullWidth-185"
+                    class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
                   >
                     <label
-                      class="MuiFormLabel-root-197 MuiInputLabel-root-186 MuiInputLabel-formControl-191 MuiInputLabel-animated-194 MuiInputLabel-outlined-196"
+                      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
                       data-shrink="false"
                       for="inflatedHex"
+                      id="inflatedHex-label"
                     >
                       Inflated Hex
                     </label>
                     <div
-                      class="MuiInputBase-root-217 MuiOutlinedInput-root-204 MuiInputBase-fullWidth-226 MuiInputBase-formControl-218 MuiInputBase-multiline-225 MuiOutlinedInput-multiline-210"
+                      class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline"
                     >
+                      <textarea
+                        aria-invalid="false"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        id="inflatedHex"
+                        rows="1"
+                        style="height: 0px; overflow: hidden;"
+                      />
+                      <textarea
+                        aria-hidden="true"
+                        class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline"
+                        readonly=""
+                        style="visibility: hidden; position: absolute; overflow: hidden; height: 0px; top: 0px; left: 0px; transform: translateZ(0); width: 100%;"
+                        tabindex="-1"
+                      />
                       <fieldset
                         aria-hidden="true"
-                        class="MuiPrivateNotchedOutline-root-234 MuiOutlinedInput-notchedOutline-211"
+                        class="PrivateNotchedOutline-root-242 MuiOutlinedInput-notchedOutline"
                         style="padding-left: 8px;"
                       >
                         <legend
-                          class="MuiPrivateNotchedOutline-legend-235"
+                          class="PrivateNotchedOutline-legend-243"
                           style="width: 0.01px;"
                         >
                           <span>
@@ -351,31 +336,6 @@ exports[`Test snapshot 1`] = `
                           </span>
                         </legend>
                       </fieldset>
-                      <div
-                        class="MuiPrivateTextarea-root-236"
-                      >
-                        <textarea
-                          aria-hidden="true"
-                          class="MuiPrivateTextarea-textarea-237 MuiPrivateTextarea-shadow-238"
-                          readonly=""
-                          rows="1"
-                          tabindex="-1"
-                        />
-                        <textarea
-                          aria-hidden="true"
-                          class="MuiPrivateTextarea-textarea-237 MuiPrivateTextarea-shadow-238"
-                          readonly=""
-                          rows="1"
-                          tabindex="-1"
-                        />
-                        <textarea
-                          aria-invalid="false"
-                          class="MuiPrivateTextarea-textarea-237 MuiInputBase-input-227 MuiOutlinedInput-input-212 MuiInputBase-inputMultiline-229 MuiOutlinedInput-inputMultiline-214"
-                          id="inflatedHex"
-                          rows="1"
-                          style="height: 19px;"
-                        />
-                      </div>
                     </div>
                     
                   </div>
@@ -383,18 +343,18 @@ exports[`Test snapshot 1`] = `
                     class="Form-centering-178"
                   >
                     <button
-                      class="MuiButtonBase-root-265 MuiButton-root-239 MuiButton-contained-250 MuiButton-raised-253 Form-button-179"
+                      class="MuiButtonBase-root MuiButton-root MuiButton-contained Form-button-179"
                       data-testid="button-inflatedHex"
                       tabindex="0"
                       type="submit"
                     >
                       <span
-                        class="MuiButton-label-240"
+                        class="MuiButton-label"
                       >
                         Deflate
                       </span>
                       <span
-                        class="MuiTouchRipple-root-277"
+                        class="MuiTouchRipple-root"
                       />
                     </button>
                   </div>
@@ -407,7 +367,7 @@ exports[`Test snapshot 1`] = `
     </div>
   </div>
   <h6
-    class="MuiTypography-root-105 MuiTypography-subtitle2-124 MuiTypography-gutterBottom-132 MuiTypography-alignCenter-128 AppGrid-footer-6"
+    class="MuiTypography-root AppGrid-footer-6 MuiTypography-subtitle2 MuiTypography-gutterBottom MuiTypography-alignCenter"
   >
     <a
       href="https://twitter.com/jamomani"

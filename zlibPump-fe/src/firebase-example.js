@@ -1,3 +1,7 @@
+/*
+* This is an example. Fill in your configuration and change the file name into firebase.js
+*/
+
 const firebase = require('firebase');
 require('firebase/functions');
 

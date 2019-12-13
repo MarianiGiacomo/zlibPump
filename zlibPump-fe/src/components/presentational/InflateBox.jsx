@@ -11,7 +11,7 @@ function InflateBox(props) {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={16}>
+      <Grid container spacing={8}>
         <Grid item xs={12}>
           <Paper className={classes.paper}>
             <Form id="deflatedHex" label="Deflated Hex" button="Inflate" />

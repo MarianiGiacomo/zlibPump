@@ -20,7 +20,7 @@ function AppGrid(props) {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={24}>
+      <Grid container spacing={10}>
         <Grid item xs={12}>
           <Typography variant="h6" align="center" gutterBottom>ZlibPump</Typography>
           <Typography variant="subtitle1" align="center" gutterBottom>Inflate and deflate strings with zlib</Typography>

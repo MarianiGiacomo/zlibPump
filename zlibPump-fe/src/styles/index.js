@@ -11,11 +11,11 @@ export const theme = createMuiTheme({
 export const styles = () => ({
   root: {
     flexGrow: 1,
-    marginRight: theme.spacing.unit,
-    marginLeft: theme.spacing.unit,
+    marginRight: theme.spacing(),
+    marginLeft: theme.spacing(),
   },
   paper: {
-    padding: theme.spacing.unit * 2,
+    padding: theme.spacing(2),
     color: theme.palette.text.secondary,
   },
   form: {
@@ -27,10 +27,10 @@ export const styles = () => ({
     justifyContent: 'center',
   },
   button: {
-    margin: theme.spacing.unit,
+    margin: theme.spacing(),
   },
   footer: {
-    margin: theme.spacing.unit * 2,
+    margin: theme.spacing(2),
   },
   modal: {
     height: '30%',
@@ -39,7 +39,7 @@ export const styles = () => ({
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    padding: theme.spacing.unit * 2,
+    padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },

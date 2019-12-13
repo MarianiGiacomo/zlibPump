@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
+import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import AppGrid from './presentational/AppGrid';
