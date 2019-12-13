@@ -10,19 +10,11 @@ const inflateBinData = (deflatedBinData) => {
   return binValue;
 }
 
-const inflateToHex = (buffer) => {
-  try{
-    var hexData = new Buffer(inflateBinData(buffer,'binary')).toString('hex')
-  }catch(err) { throw err }
-  return hexData;
-}
+const inflateToHex = buffer => 
+  new Buffer(inflateBinData(buffer,'binary')).toString('hex')
 
-const inflateToAscii = (buffer) => {
-  try{
-    var asciiData = new Buffer(inflateBinData(buffer,'binary')).toString('ascii')
-  }catch(err) { throw err }
-  return asciiData;
-}
+const inflateToAscii = buffer => 
+  new Buffer(inflateBinData(buffer,'binary')).toString('ascii')
 
 module.exports = {
   toAscii: inflateToAscii,

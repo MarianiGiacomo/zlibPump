@@ -9,19 +9,12 @@ const deflateBinData = (inflatedBinData) => {
   return binValue;
 }
 
-const deflateToHex = (buffer) => {
-    try {
-      var hexData = new Buffer(deflateBinData(buffer,'binary')).toString('hex')
-    }catch(err) { throw err }
-    return hexData;
-}
+const deflateToHex = buffer => 
+  new Buffer(deflateBinData(buffer,'binary')).toString('hex')
 
-const deflateToBase64 = (buffer) => {
-    try {
-       var b64Data = new Buffer(deflateBinData(buffer,'binary')).toString('base64')
-    }catch(err) { throw err }
-    return b64Data;
-}
+
+const deflateToBase64 = buffer => 
+  new Buffer(deflateBinData(buffer,'binary')).toString('base64')
 
 module.exports = {
   toBase64: deflateToBase64,
