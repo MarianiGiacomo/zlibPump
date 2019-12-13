@@ -12,14 +12,16 @@ const inflateBinData = (deflatedBinData) => {
 
 const inflateToHex = (buffer) => {
   try{
-    return new Buffer(inflateBinData(buffer,'binary')).toString('hex')
+    var hexData = new Buffer(inflateBinData(buffer,'binary')).toString('hex')
   }catch(err) { throw err }
+  return hexData;
 }
 
 const inflateToAscii = (buffer) => {
   try{
-    return new Buffer(inflateBinData(buffer,'binary')).toString('ascii')
+    var asciiData = new Buffer(inflateBinData(buffer,'binary')).toString('ascii')
   }catch(err) { throw err }
+  return asciiData;
 }
 
 module.exports = {
