@@ -12,10 +12,10 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "firebase-admin": "~8.8.0",
+    "firebase-admin": "~9.4.2",
     "firebase-functions": "^3.3.0",
     "pako": "^1.0.10",
-    "snyk": "^1.319.0"
+    "snyk": "^1.425.4"
   },
   "devDependencies": {
     "eslint": "^6.7.2",
