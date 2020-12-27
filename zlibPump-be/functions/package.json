@@ -13,12 +13,12 @@
   },
   "dependencies": {
     "firebase-admin": "~9.4.2",
-    "firebase-functions": "^3.3.0",
-    "pako": "^1.0.10",
-    "snyk": "^1.437.0"
+    "firebase-functions": "^3.13.0",
+    "pako": "^2.0.2",
+    "snyk": "^1.437.3"
   },
   "devDependencies": {
-    "eslint": "^6.7.2",
+    "eslint": "^7.16.0",
     "eslint-plugin-promise": "^4.2.1"
   },
   "private": true,
