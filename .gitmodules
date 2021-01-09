@@ -1,3 +1,6 @@
 [submodule "zlibPump-frontend"]
 	path = zlibPump-frontend
 	url = git@github.com:MarianiGiacomo/zlibPump-frontend.git
+[submodule "zlibPump-backend"]
+	path = zlibPump-backend
+	url = git@github.com:MarianiGiacomo/zlibPump-backend.git
